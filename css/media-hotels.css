@@ -1,0 +1,22 @@
+@media ( max-width: 1200px ) {
+    /*from 992 to 1200*/
+    .container {
+        max-width: 900px;
+    }
+
+    .search-box {
+        width: 900px;
+    }
+}
+@media (max-width: 992px) {
+        /*from 768 to 992*/
+        .search-box {
+            max-width: 900px;
+        }
+}
+@media (max-width: 768px) {
+        /*from 576 to 768*/
+        .search-box {
+            max-width: 700px;
+        }
+}

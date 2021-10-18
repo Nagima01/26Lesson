@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,600&family=PT+Sans+Narrow:wght@700&family=PT+Sans:wght@400;700&display=swap"
+          rel="stylesheet">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    <header>
+        <nav class="header-nav">
+            <ul class="header-ul">
+                <li><a class="header-nav-link" href="index.html">Информация</a></li>
+                <li><a class="header-nav-link" href="#foto">Фото и видео</a></li>
+                <li class="empty-list"></li>
+                <li><a class="header-nav-link" href="#map">Карта штата</a></li>
+                <li><a class="header-nav-link" href="hotels.html">Гостиницы</a></li>
+            </ul>
+            <img class="header-logo" src="images/logo.svg" alt="logo">
+        </nav>
+    </header>
+    <div class="hero">
+        <div class="hero-bg">
+            <img class="hero-img-1" src="images/welcome.svg" alt="welcome">
+            <img class="hero-img-2" src="images/gorgeos.svg" alt="gorgeos">
+            <img class="hero-img-3" src="images/sedona.svg" alt="sedona">
+            <img class="hero-bottom-img" src="images/bottom-img.svg" alt="bottom">
+        </div>
+        <div class="hero-text">
+            <div class="hero-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</div>
+            <div class="hero-subtitle">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</div>
+        </div>
+    </div>
+    <div id="foto" class="reasons">
+        <div class="row">
+            <div class="col-4">
+                <div class="reasons-box">
+                    <div class="reasons-title">Настоящий городок</div>
+                    <div class="reasons-subtitle">— №1 —</div>
+                    <div class="reasons-text">Седона - не аттракцион для туристов, там
+                        течёт своя жизнь
+                    </div>
+                </div>
+            </div>
+            <div class="col-66">
+                <img src="images/reasons-img.png" alt="reasons" class="reasons-img">
+            </div>
+            <div class="col-4">
+                <div class="reasons-menu-bar">
+                    <img src="images/icon-1.svg" alt="house" class="menu-bar-house">
+                    <div class="reasons-menu-bar-title">Жильё</div>
+                    <div class="reasons-menu-bar-text">Рекомендуем пожить в настоящем мотеле, всё как в кино!</div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="reasons-menu-bar">
+                    <img src="images/icon-2svg.svg" alt="house" class="menu-bar-house">
+                    <div class="reasons-menu-bar-title">Еда</div>
+                    <div class="reasons-menu-bar-text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="reasons-menu-bar">
+                    <img src="images/icon-3.svg" alt="house" class="menu-bar-gift">
+                    <div class="reasons-menu-bar-title">Сувениры</div>
+                    <div class="reasons-menu-bar-text">Не только китайского, но и местного
+                        производства!
+                    </div>
+                </div>
+            </div>
+            <div class="col-66">
+                <img src="images/reasons-img2.png" alt="reasons" class="reasons-img">
+            </div>
+            <div class="col-4">
+                <div class="reasons-box">
+                    <div class="reasons-title">Там есть Мост дьявола</div>
+                    <div class="reasons-subtitle">— №2 —</div>
+                    <div class="reasons-text">Да, по нему можно пройти! Если конечно вы осмелитесь</div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="reasons-menu-bar">
+                    <div class="reasons-menu-bar-title-second-block">небольшая площадь</div>
+                    <div class="reasons-menu-bar-number">— №3 —</div>
+                    <div class="reasons-menu-bar-text">все достопримечательности находятся очень близко</div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="reasons-menu-bar">
+                    <div class="reasons-menu-bar-title-second-block">красивая дорога</div>
+                    <div class="reasons-menu-bar-number">— №4 —</div>
+                    <div class="reasons-menu-bar-text">ехать в седону из лас-вегаса совсем не скучно!</div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="reasons-menu-bar">
+                    <div class="reasons-menu-bar-title-second-block">мало туристов</div>
+                    <div class="reasons-menu-bar-number">— №5 —</div>
+                    <div class="reasons-menu-bar-text">большинство едет в гранд каньон и толпится там</div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-first-page-title">Заинтересовались?</div>
+            <div class="footer-first-page-text">Укажите предполагаемые даты поездки, <br>и мы покажем вам лучшие
+                предложения гостиниц в седоне
+            </div>
+            <div class="footer-bg-map">
+                <div class="footer-search-hotel-box">
+                    <div class="footer-search-hotel-box-title">ПОИСК ГОСТИНИЦЫ В седоне</div>
+                    <div class="reserve-box">
+                        <div class="date-input-card">
+                            <label for="date" class="reserve-date">Дата заезда:</label>
+                            <input class="date-input" type="text" id="date" value="24 апреля 2017">
+                        </div>
+                        <div class="date-input-card">
+                            <label for="date-alive" class="reserve-date">Дата выезда:</label>
+                            <input class="date-input" type="text" id="date-alive" value="4 июля 2017">
+                        </div>
+                        <div class="people-box-together">
+                            <div class="people-box">
+                                <label class="reserve-box-label" for="adults">Взрослые:</label>
+                                <div class="input-box">
+                                    <button class="reserve-box-button reserve-box-button-minus" type="button">-</button>
+                                    <input readonly class="reserve-box-input" id="adults" type="text" value="2">
+                                    <button class="reserve-box-button reserve-box-button-plus" type="button">+</button>
+                                </div>
+                            </div>
+                            <div class="people-box">
+                                <label class="reserve-box-label" for="child">Дети:</label>
+                                <div class="input-box">
+                                    <button class="reserve-box-button reserve-box-button-minus" type="button">-</button>
+                                    <input readonly class="reserve-box-input" id="child" type="text" value="0">
+                                    <button class="reserve-box-button reserve-box-button-plus" type="button">+</button>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="search-hotel-box-button" type="button">Найти</button>
+                    </div>
+                </div>
+            </div>
+            <div id="map" class="footer-contacts">
+                <div class="footer-tel-number">ТЕЛ: +7(495) 666-01-66</div>
+                <div class="footer-social-links">
+                    <a href="https://twitter.com" class="twitter-link"><img class="img-social" src="images/twitter.svg" alt="twitter"></a>
+                    <a href="https://www.facebook.com" class="twitter-link"><img class="img-social" src="images/facebook.svg" alt="twitter"></a>
+                    <a href="https://www.youtube.com" class="twitter-link"><img class="img-social" src="images/utube.svg" alt="twitter"></a>
+                </div>
+                <div class="footer-hashtag">#visitSEDONA</div>
+            </div>
+
+        </footer>
+    </div>
+</div>
+
+</body>
+</html>
